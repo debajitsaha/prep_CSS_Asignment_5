@@ -1,0 +1,116 @@
+.box{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+body{
+    background-color: rgb(139, 235, 179);
+}
+.num{
+    padding-top: 80px;
+}
+.row1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 30px;
+   background-color: aqua;
+     animation: samlpe1 3s  infinite alternate;
+}
+@keyframes samlpe1{
+    0%{
+        transform: skew(-30deg);
+    }
+    100%{
+        transform: skew(30deg);
+    }
+}
+.row2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 30px;
+background-color: blue;
+animation:sample2 2s infinite alternate ;
+}
+@keyframes sample2{
+    0%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(30deg);
+    }
+}
+.row3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 30px;
+background-color: rgb(255, 0, 255);
+animation:sample3 2s infinite normal;
+}
+@keyframes sample3{
+    0%{
+        transform:rotate(90deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.row4{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 30px;
+background-color: rgb(255, 238, 0);
+animation:sample4 2s infinite normal;
+}
+@keyframes sample4{
+    0%{
+        transform:scale(1,1)
+    }
+    100%{
+        transform:scale(1,0.5);
+    }
+}
+.row5{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 30px;
+background-color: rgb(255, 115, 0);
+animation:sample5 2s infinite normal;
+}
+@keyframes sample5{
+    0%{
+        transform:scale(1,1)
+    }
+    100%{
+        transform:scale(0.5,1);
+    }
+}
+.row6{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 30px;
+background-color: rgb(21, 255, 0);
+animation:sample6 2s infinite alternate;
+}
+@keyframes sample6{
+    0%{
+        transform:rotate(270deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.an{
+    font-size: 35px;
+    
+}
