@@ -6,7 +6,6 @@ body{
 }
 .sky{
 background-image: url(./sky.jpg);
-background-repeat: no-repeat;
 height: 100vh;
 width: 100%;
 position: relative;
@@ -27,7 +26,7 @@ overflow: hidden;
 }
 .car{
     position:absolute ;
-    top:340px;
+    top:350px;
     left: 35%;
     animation: sample2 2s infinite linear;
 }
@@ -36,7 +35,7 @@ overflow: hidden;
         transform: translateY(1px);
     }
     50%{
-        transform: translateY(-4px);
+        transform: translateY(-5px);
     }
     100%{
         transform: translateY(1px);
@@ -44,13 +43,13 @@ overflow: hidden;
 }
 .flag{
     position: absolute;
-    top:345px;
-    left: 65%;
+    top:360px;
+    left: 63%;
 }
 #whell1{
     position: absolute;
-    bottom: 90px;
-    left: 475px;
+    bottom: 100px;
+    left: 505px;
     animation: sample1 1s infinite linear;
 }
 @keyframes sample1{
@@ -60,8 +59,8 @@ overflow: hidden;
 }
 #wheel2{
     position: absolute;
-    bottom: 90px;
-    left: 780px;
+    bottom: 100px;
+    left: 810px;
     animation: sample1 1s infinite linear;
 }
 @keyframes sample1{
@@ -103,11 +102,13 @@ overflow: hidden;
     background-color: orange;
 }
 .indi{
+    margin-left: 10px;
     display: inline;
     font-size: 50px;
     background-color: white;
 }
 .day{
+    margin-left: 10px;
     display: inline;
     font-size: 50px;
     background-color: green;
