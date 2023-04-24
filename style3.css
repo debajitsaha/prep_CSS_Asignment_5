@@ -18,6 +18,7 @@ overflow: hidden;
     height: 250px;
     width: 500%;
     animation: sample 4s infinite linear;
+    z-index: 2;
 }
 @keyframes sample{
     100%{
@@ -26,9 +27,10 @@ overflow: hidden;
 }
 .car{
     position:absolute ;
-    top:350px;
+    top:300px;
     left: 35%;
     animation: sample2 2s infinite linear;
+    z-index: 2;
 }
 @keyframes sample2{
     0%{
@@ -43,14 +45,16 @@ overflow: hidden;
 }
 .flag{
     position: absolute;
-    top:360px;
+    top:300px;
     left: 63%;
+    z-index: 2;
 }
 #whell1{
     position: absolute;
-    bottom: 100px;
+    bottom: 90px;
     left: 505px;
     animation: sample1 1s infinite linear;
+    z-index: 2;
 }
 @keyframes sample1{
     100%{
@@ -59,9 +63,10 @@ overflow: hidden;
 }
 #wheel2{
     position: absolute;
-    bottom: 100px;
+    bottom: 90px;
     left: 810px;
     animation: sample1 1s infinite linear;
+    z-index: 2;
 }
 @keyframes sample1{
     100%{
@@ -72,7 +77,7 @@ overflow: hidden;
     background-image: url(./city.png);
     
     position: absolute;
-   top:160px;
+   top:110px;
     height: 290px;
     width: 1000%;
     animation: sample5 4s infinite linear;
@@ -88,12 +93,12 @@ overflow: hidden;
     top:100px;
     height: 80px;
     width: 80px;
-    right: 10px;
-    animation: sample6 6s infinite linear;
+    right: 16px;
+    animation: sample6 20s infinite linear;
 }
 @keyframes sample6{
     100%{
-        transform: translate(-200px);
+        transform: translate(-1000px);
     }
 }
 .happy{
