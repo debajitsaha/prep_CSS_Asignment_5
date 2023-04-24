@@ -51,7 +51,7 @@ overflow: hidden;
 }
 #whell1{
     position: absolute;
-    bottom: 102px;
+   top:408px;
     left: 509px;
     animation: sample1 1s infinite linear;
     z-index: 2;
@@ -63,7 +63,7 @@ overflow: hidden;
 }
 #wheel2{
     position: absolute;
-    bottom: 102px;
+    top:408px;
     left: 815px;
     animation: sample1 1s infinite linear;
     z-index: 2;
