@@ -77,7 +77,7 @@ overflow: hidden;
     background-image: url(./city.png);
     
     position: absolute;
-   top:110px;
+     top:160px;
     height: 290px;
     width: 1000%;
     animation: sample5 4s infinite linear;
